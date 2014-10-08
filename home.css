@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Aion super </title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/global.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/home.css" />
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="header">
+				<div id ="logo">
+					<img
+				</div>
+				<div id= "nav">
+					<!-- nav -->
+					<ul>
+						<li><a href="#">home</a></li>
+						home
+						<span> text2</span>
+						<li><a href="#" title="home"> Home <span> back to home</span></a></li>
+						<li><a href="#" title="About us"> about us <span> learn more zbout us</span></a></li>
+						<li><a href="#" title="Reference"> Reference <span> check your work</span></a></li>
+						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
+						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
+						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="content">
+				<div id="slider" >
+					!-- slide -->
+            <a href="#"><figure>
+                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
+                <figcaption>Fake image de 640x310px. Slide 1</figcaption>
+            </figure></a>
+            <a href="#"><figure>
+                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
+                <figcaption>Fake image de 640x310px. Slide 2</figcaption>
+            </figure></a>
+            <a href="#"><figure>
+                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
+                <figcaption>Fake image de 640x310px. Slide 3</figcaption>
+            </figure></a>
+            <a href="#"><figure>
+                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
+                <figcaption>Fake image de 640x310px. Slide 4</figcaption>
+            </figure></a>
+				</div>
+				<div id="container">
+					!-- 3 colon -->
+					<div class="col" id="col1">
+						<div class='block'>
+
+						</div>
+					<div class="col" id="col2">
+						<div class='block'>
+
+						</div>
+					<div class="col" id="col3">
+						<div class='block'>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="footer">
+				<div id="footer-top">
+					USEFUL LINKS
+					<ul>
+					<li> ABOUT US</li>
+					<li> REFERENCE</li>
+					<li> OUR TEAM</li>
+					<li> NEWS</li>
+					<li> CONTACT</li>
+					</ul>
+
+				</div>
+				<div id="foot-bottom">
+				</div>
+			</div>
+		</div>
+
+	</body>	
+</html>
