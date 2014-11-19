@@ -1,86 +1,292 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title> Aion super </title>
-		<meta charset="utf-8" />
-		<link rel="stylesheet" type="text/css" href="stylesheets/global.css" />
-		<link rel="stylesheet" type="text/css" href="stylesheets/home.css" />
-	</head>
-	<body>
-		<div id="wrapper">
-			<div id="header">
-				<div id ="logo">
-					<img
-				</div>
-				<div id= "nav">
-					<!-- nav -->
-					<ul>
-						<li><a href="#">home</a></li>
-						home
-						<span> text2</span>
-						<li><a href="#" title="home"> Home <span> back to home</span></a></li>
-						<li><a href="#" title="About us"> about us <span> learn more zbout us</span></a></li>
-						<li><a href="#" title="Reference"> Reference <span> check your work</span></a></li>
-						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
-						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
-						<li><a href="#" title="About us"> about us <span> lezrn more zbout us</span></a></li>
-					</ul>
-				</div>
-			</div>
-			<div id="content">
-				<div id="slider" >
-					!-- slide -->
-            <a href="#"><figure>
-                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
-                <figcaption>Fake image de 640x310px. Slide 1</figcaption>
-            </figure></a>
-            <a href="#"><figure>
-                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
-                <figcaption>Fake image de 640x310px. Slide 2</figcaption>
-            </figure></a>
-            <a href="#"><figure>
-                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
-                <figcaption>Fake image de 640x310px. Slide 3</figcaption>
-            </figure></a>
-            <a href="#"><figure>
-                <img src="http://fakeimg.pl/640x310/" alt="" width="640" height="310" />
-                <figcaption>Fake image de 640x310px. Slide 4</figcaption>
-            </figure></a>
-				</div>
-				<div id="container">
-					!-- 3 colon -->
-					<div class="col" id="col1">
-						<div class='block'>
+html, body, h1, h2, h4, h5, h6, p, blockquote, ul, ol, dl, dt, dd, form, fieldset, input, textarea, label,u{
+	margin: 0;
+	padding: 0;
+	border:0px;
+	list-style: none;
+	font-weight: normal;
+	text-align: left;
+}
 
-						</div>
-					<div class="col" id="col2">
-						<div class='block'>
 
-						</div>
-					<div class="col" id="col3">
-						<div class='block'>
+body{
+	background:#FFF;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 0.9em;
+}
 
-						</div>
-					</div>
-				</div>
+a:hover{
+	text-decoration: none;
+}
 
-			</div>
-			<div id="footer">
-				<div id="footer-top">
-					USEFUL LINKS
-					<ul>
-					<li> ABOUT US</li>
-					<li> REFERENCE</li>
-					<li> OUR TEAM</li>
-					<li> NEWS</li>
-					<li> CONTACT</li>
-					</ul>
 
-				</div>
-				<div id="foot-bottom">
-				</div>
-			</div>
-		</div>
 
-	</body>	
-</html>
+#wrapper {
+	width: 1200px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+
+#wrapper #header #menu ul li a {
+	font-family: helvetica,arial, sans-serif;
+	font-weight: bolder;
+	font-size: 10px;
+	color:#333333;
+	text-transform:uppercase;
+}
+
+#wrapper #header #menu ul li span{
+	border-bottom: 4px solid #569E86;
+	color:#ccc;
+	text-decoration: none;
+}
+
+#header #logo{
+	float:left;
+	height: 100px;
+}
+
+#header {
+	height: 100px;
+}
+#header #menu {
+float: right;
+margin-top:15px;
+}
+#header #menu ul li {
+	display: inline-block;
+	padding: 0 0 0 65px;
+	text-align: left;
+}
+
+#header #menu ul li a {
+	text-decoration: none;
+	color:#006289;
+	
+}
+
+#header #menu ul li a span {
+	color:#46CBB2;
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 5px solid #C2C9C8;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#container {
+	height: 100%;
+}
+#content {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+.blue_bg  {
+	width:400px;
+	float: left;
+}
+
+.red_bg{
+	width:400px;
+	float: left;
+}
+
+.blue_bg {
+	width:400px;
+	float: left;
+}
+h1 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 0.9em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 20px;
+	color: #FFF;	
+}
+
+.bloc1 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.blue {
+	color:#C2C9C8;
+}
+
+.blue_bg {
+	background-color:#C2C9C8;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.red {
+	color:#569E86;
+}
+
+.red_bg {
+	background-color:#569E86;
+	padding-bottom: 14px;
+}
+
+.bloc2 {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+
+.bloc3 {
+	margin-left: 30px;
+	margin-right: 30px;
+		margin-bottom: 30px;
+}
+
+.link {
+	margin: 20px 0 10px 0;
+	border-top: 1px dashed grey;
+		border-bottom: 1px dashed grey;
+	width: 50%;
+}
+
+.date {
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 20px;
+	font-size: 0.8em;
+	color:white;
+}
+
+.hour {
+	font-size: 0.8em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 0.8em;
+	line-height: 1.4em;
+}
+
+.more a{
+	font-variant: small-caps;
+	color:#FFF;
+	text-decoration: none;
+}
+
+
+#first_botton{
+	background-color: #569E86;
+	padding-bottom: 15px;
+}
+#first_botton img {
+	margin-top: 20px;
+	margin-left: 20px
+}
+
+
+#first_botton2{
+	background-color: #569E86;
+	padding-bottom: 15px;
+}
+#first_botton2 img {
+	margin-top: 20px;
+	margin-left: 20px
+	}
+
+
+#first_botton3{
+	background-color: #569E86;
+	padding-bottom: 15px;
+}
+#first_botton3 img {
+	margin-top: 20px;
+	margin-left: 20px
+}
+
+
+#button_container {
+	margin-bottom: 20px;
+}
+
+.clearfix:before,
+.clearfix:after {
+	display:table;
+	content:" ";
+}
+.clearfix:after{
+	clear:both;
+}
+.button img{
+	float:left;
+	margin-right:10px;
+}
+
+.button .button_container {
+	float:left;
+}
+
+h3 {
+	text-transform: uppercase;
+	color:white;
+}
+
+#first_button {
+	
+}
+.button{
+	margin-left: 30px;
+	margin-right:30px;
+	margin-top:30px;
+	
+}
+
+#twitter,
+#twitter p{
+	border-radius: 10px;
+	background-color: #569E86;
+	padding:5px;
+	margin-top:20px;
+	margin-left: 30px;
+	margin-right:30px;
+}
+
+#bot1 ul {
+	margin-left: 30px;
+		}
+
+#bot1 li {
+	list-style-type: disc;
+	border-bottom: 2px dotted #C2C9C8;
+	margin-top: 5px;
+}
+
+#bot1,
+#bot2,
+#bot3{
+	float:left;
+	width:400px;
+}
+
+#bot2 p, 
+#bot2 strong{
+	margin: 0px 30px;
+
+}
+#bot2 strong{
+	 border-bottom: 2px dotted  #C2C9C8;
+}
+#gateau {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+.h_footer{
+	border-left: 5px solid #569E86;
+}

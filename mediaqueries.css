@@ -1,0 +1,120 @@
+/* mobile version*/
+@media screen and (max-width:767px){
+
+
+									.responive-mobile-logo {
+									text-align: center;
+									width:100%;
+									}	
+
+									#menu{
+									width:100%;
+									float: left;
+									
+									}	
+
+								
+									#header #menu ul li {
+    								float: left;
+    								width: 100%;
+    								padding: 0px 0px 0px 30px;
+    								
+
+									}
+									#slider img {
+										width: 100%;
+									}					
+
+						.responsive-mobile-col1{
+						width:100%;
+						float: left;
+						
+						}
+
+						.responsive-mobile-col2{
+						width:100%;
+						float: left;
+						}
+
+						.responsive-mobile-col3 {
+						width:100%;
+						float: left;
+						}
+									}
+
+/*mobile et tablet version*/
+@media screen and (max-width:1199px) {
+#wrapper {
+	width: 100%;
+}
+.responsive-tablet-col1{
+						width:100%;
+						float: left;
+						background-color: red;
+						}
+}
+
+/*tablet version*/
+@media screen and (min-width:768px)and ( max-width: 1199px) {
+
+						.responive-mobile-logo {
+									text-align: center;
+									width:100%;
+									}	
+
+						#menu{
+								width:100%;
+									
+									
+							}	
+							#header #menu.margin-tablet{
+								text-align: center;
+								display: inline-block;
+
+							}
+
+								
+						#header #menu ul{
+							display:inline-block;
+							width: 100%;
+							text-align: center;
+						}
+						#header #menu ul li {
+    								
+    								text-align: left;
+    								padding: 0% 1%;
+    									}
+						
+						#slider img {
+										width: 100%;
+									}
+						.blue_bg  {
+							width:33%;
+							float: left;
+							
+								   }
+
+						.red_bg{
+							width:33%;
+							float: left;
+								}
+
+						.blue_bg {
+							width:33%;
+							float: left;	
+								}
+
+/*ordinateur et tablet version*/
+@media screen and (min-width:768px){
+
+}
+
+/*ordinateur version*/
+@media screen and (min-width:1200px){
+	
+}
+
+/*impression*/
+@media print {
+
+}
